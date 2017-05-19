@@ -129,8 +129,8 @@ Make your first html file named `dial.html` and copy/paste the following:
     // The phone *number* can by any string value
     var phone = PHONE({
         number        : '1234',
-        publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c',
-        subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe',
+        publish_key   : 'pub-c-5c9b7174-7e41-4ee1-859f-4942dd5fb3a7',
+        subscribe_key : 'sub-c-8bbc1388-3c97-11e7-ac85-02ee2ddab7fe',
         ssl           : true
     });
 
@@ -219,8 +219,8 @@ Be careful as your bandwidth is the true limiter.
 ```javascript
 var phone = PHONE({
     number        : '1234567890',
-    publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c',
-    subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe',
+    publish_key   : 'pub-c-5c9b7174-7e41-4ee1-859f-4942dd5fb3a7',
+    subscribe_key : 'sub-c-8bbc1388-3c97-11e7-ac85-02ee2ddab7fe',
     media         : { audio : true, video : true },
     ssl           : true
 })
@@ -356,8 +356,8 @@ By default the WebRTC SDK starts user's camera.  You can optionally prevent this
     var phone   = PHONE({
         number        : number
     ,   autocam       : false
-    ,   publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c'
-    ,   subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe'
+    ,   publish_key   : 'pub-c-5c9b7174-7e41-4ee1-859f-4942dd5fb3a7'
+    ,   subscribe_key : 'sub-c-8bbc1388-3c97-11e7-ac85-02ee2ddab7fe'
     ,   ssl           : true
     });
 
@@ -578,8 +578,8 @@ Start broadcasting as the broadcaster:
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 var broadcaster = PHONE({
     number        : "BROADCASTER",  // If you want more than one broadcaster, use unique ids
-    publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c',
-    subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe',
+    publish_key   : 'pub-c-5c9b7174-7e41-4ee1-859f-4942dd5fb3a7',
+    subscribe_key : 'sub-c-8bbc1388-3c97-11e7-ac85-02ee2ddab7fe',
     ssl           : true
 });
 
@@ -601,8 +601,8 @@ broadcaster.receive(function(new_viewer){
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 var viewer = PHONE({
     number        : "VIEWER-"+new Date,
-    publish_key   : 'pub-c-561a7378-fa06-4c50-a331-5c0056d0163c',
-    subscribe_key : 'sub-c-17b7db8a-3915-11e4-9868-02ee2ddab7fe',
+    publish_key   : 'pub-c-5c9b7174-7e41-4ee1-859f-4942dd5fb3a7',
+    subscribe_key : 'sub-c-8bbc1388-3c97-11e7-ac85-02ee2ddab7fe',
     ssl           : true
 });
 
